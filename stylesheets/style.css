@@ -1,0 +1,263 @@
+/* http://drinchev.github.io/monosocialiconsfont/ */
+
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 250%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 2.5em;
+}
+
+h2 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+h3, h4, h5 {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+#logo {
+  z-index: 10;
+  position: absolute;
+}
+
+.top {
+  z-index: 20;
+}
+
+#home-lead {
+  padding-top: 70px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color:#1886CD;
+}
+
+a:hover, a:focus {
+  color:#48aaea;
+}
+
+#wrapper {
+
+}
+
+#header {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.leading-section {
+  background-image:url('../images/leading-section-bg.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.learn-these-skills {
+
+}
+
+.learn-at-your-pace {
+  background: #19C67A;
+}
+
+.who-we-are {
+  background: #4D4D4D;
+}
+
+.who-we-are h2 {
+  color:white;
+}
+
+.become-a-developer {
+  background: #1886CD;
+  text-align: center;
+  height:200px;
+}
+
+.become-a-developer .button.radius {
+  background:#4D4D4D;
+  text-transform: uppercase;
+  font-size: .8em;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.become-a-developer .button.radius:hover {
+  background:#333;
+
+}
+
+.footer {
+  background: #333;
+}
+
+.white {
+  color:white;
+  text-align: center;
+}
+
+.five-column {
+  width:20%;
+  margin-bottom: 20px;
+}
+
+.five-column .columns {
+  float:right;
+}
+
+.full-width {
+  width: 100%; max-width: 100%;
+}
+.top-bar {
+  background: #8E376E;
+}
+
+.top-bar-section .has-form {
+  background: #8E376E;
+}
+
+.top-bar-section li a:not(.button) {
+  background: #8E376E;
+}
+
+.top-bar-section ul li > a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.top-bar-section ul li > a.button {
+  background: #E04940;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-bar-section ul li > a.button:hover {
+  background: #a0211a;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.top-rounded-corners {
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.bottom-rounded-corners {
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+
+.rounded {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.leading-section img {
+  margin-top:20px;
+}
+
+.pricing-table {
+  border: none;
+}
+
+.pricing-table .description, .pricing-table
+.bullet-item, .pricing-table .price {
+  background-color: rgba(255,255,255,0.4);
+  border:none;
+}
+
+.pricing-table .cta-button {
+  background-color: rgba(255,255,255,0);
+}
+
+
+.button.radius {
+  background: #E04940;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button.radius:hover {
+  background: #a0211a;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.pricing-table .title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table .price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+.profile-deets {
+  color:white;
+}
+
+
+a.faq {
+  color:white;
+}
+
+.footer h2 {
+  text-align: left;
+}
+
+.footer ul {
+  text-align: left;
+  list-style-type:none;
+}
