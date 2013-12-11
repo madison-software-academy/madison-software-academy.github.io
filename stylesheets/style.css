@@ -64,6 +64,10 @@ h3, h4, h5 {
   z-index: 20;
 }
 
+.top-bar-section ul li > a.button {
+  background-color: white;
+}
+
 #home-lead {
   padding-top: 70px;
 }
@@ -115,7 +119,7 @@ a:hover, a:focus {
   background: #4D4D4D;
 }
 
-.who-we-are h2 {
+.who-we-are h2, .who-we-are a {
   color:white;
 }
 
@@ -176,12 +180,14 @@ a:hover, a:focus {
 }
 
 .top-bar-section ul li > a.button {
-  background: #E04940;
+  color: #444;
+  background: white;
   font-family: 'Montserrat', sans-serif;
 }
 
 .top-bar-section ul li > a.button:hover {
-  background: #a0211a;
+  color: white;
+  background: black;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -209,6 +215,9 @@ a:hover, a:focus {
   margin-top:20px;
 }
 
+ul.pricing-table {
+  list-style-type: circle;
+}
 .pricing-table {
   border: none;
 }

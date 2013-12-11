@@ -12,6 +12,10 @@
     <link href="/stylesheets/foundation.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="/javascripts/modernizr.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.js" type="text/javascript"></script>
+<script src="/javascripts/all.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   </head>
 
   <body class="about">
@@ -57,9 +61,10 @@
     <p>Our founders have been leading teams of developers for over a decade and know what companies are looking for in junior developers. We've specifically tailored our academy to get you to a position of being <b>hired as a junior web developer</b>.
     </p>
     <h2>Implementing From Day One</h2>
-    <p>Many other bootcamps talk about <em>learning by doing</em>, but at MSA it is <b>reality</b>. We start from day one by implementing a blog application, with Devise authentication, and hosted on Heroku.  You'll continually add to that application, learning Ruby, RSpec, git, and Rails along the way.  We don't even start teaching theory until after you've deployed several web applications.
+    <img class="right logo" src="/images/logos/heroku.png" />
+    <p>Many other bootcamps talk about <em>learning by doing</em>, but at MSA it is <b>reality</b>. We start from day one by implementing a blog application, with Devise authentication, and hosted on <a href="http://heroku.com/">Heroku</a>.  You'll continually add to that application, learning Ruby, RSpec, git, and Rails along the way.  We don't even start teaching theory until after you've deployed several web applications.
     </p>
-    <p>Mid curriculum is when we crank up the theory learning and slow down a bit on the implementation.  This is a better approach than other schools (and standard academia) because the theory will make more sense when you have a sense for its application - this is the key to our pedagogy.
+    <p>Mid curriculum is when we crank up the theory learning and slow down a bit on the implementation.  This is a better approach than other schools (and standard academia) because the theory will make more sense when you have a sense for its application - this is the key to successful learning and the advantage we offer our students.
     <h2>Tools & Languages We Teach</h2>
     <ul>
       <li>
@@ -141,6 +146,9 @@
         <span href="heroku.html">Heroku</span>
       </li>
     </ul>
+    <ul class="pricing-table">
+      <li class="cta-button"><a href="#" data-reveal-id="applyModal" class="radius button">Apply Today</a></li>
+    </ul>
   </div>
   <div class="large-3 columns">
 
@@ -174,7 +182,7 @@
         var s = d.createElement(t), options = {
         'userName':'softwareacademy',
         'formHash':'z1422kbf1s6w320',
-        'autoResize':true,
+        'autoResize':false,
         'height':'700',
         'async':true,
         'host':'wufoo.com',
@@ -195,5 +203,8 @@
     <script>
       $(document).foundation();
     </script>
+    <div id="myModal" class="reveal-modal" data-reveal>
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
   </body>
 </html>

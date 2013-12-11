@@ -2295,14 +2295,14 @@ a.th {
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
-    color: #777777;
-    font-size: 0.75rem;
+    color: #444;
+    font-size: .9rem;
     font-weight: normal;
     line-height: 1.4;
     border-bottom: dotted 1px #dddddd; }
   .pricing-table .bullet-item {
     background-color: white;
-    padding: 0.9375rem;
+    padding: 0.375rem;
     text-align: center;
     color: #333333;
     font-size: 0.875rem;
