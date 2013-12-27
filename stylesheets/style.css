@@ -32,6 +32,9 @@ a.symbol:before {
     margin-right: 0.3em;
     font-size: 250%;
 }
+p {
+  font-family: 'Lora';
+}
 
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -43,7 +46,7 @@ h1 {
 h2 {
   font-family: 'Quattrocento Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.7em;
   margin: 20px 0;
 }
 
@@ -81,7 +84,7 @@ html, body {
 }
 
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: inherit;
   color:#1886CD;
 }
 
