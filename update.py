@@ -13,7 +13,7 @@ def remove_all(root, exceptions):
       shutil.rmtree(path)
 
 def main():
-  exceptions = ['.git', 'build', 'update.py', 'CNAME']
+  exceptions = ['.git', 'build', 'update.py', 'CNAME', '.gitignore']
   root = '.'
   remove_all(root, exceptions)
 
