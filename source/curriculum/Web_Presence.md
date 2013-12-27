@@ -1,5 +1,4 @@
 ---
-layout: rails
 title: Web Presence
 ---
 
