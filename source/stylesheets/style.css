@@ -143,10 +143,6 @@ a:hover, a:focus {
 
 }
 
-.footer {
-  background: #333;
-}
-
 .white {
   color:white;
   text-align: center;
@@ -264,6 +260,11 @@ a.faq {
   color:white;
 }
 
+.footer {
+  background: #333;
+  margin-top: 25px;
+}
+
 .footer h2 {
   text-align: left;
 }
@@ -271,4 +272,11 @@ a.faq {
 .footer ul {
   text-align: left;
   list-style-type:none;
+}
+.partner {
+  width: 200px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
 }
