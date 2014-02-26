@@ -281,3 +281,11 @@ a.faq {
   text-align: center;
   padding: 10px;
 }
+.partner .logo {
+  height: 110px;
+}
+.partner .description {
+  font-size: .9rem;
+  font-weight: 400;
+  font: sans-serif;
+}
