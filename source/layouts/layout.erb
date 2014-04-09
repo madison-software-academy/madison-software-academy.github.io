@@ -86,7 +86,7 @@
             <p>Enter your email to view the detailed Ruby on Rails curriculum.</p>
             <form action="https://docs.google.com/forms/d/1qVx6rrZyl77eWoqKD6musQVSIY2drZEZ4feQ9i4uQZk/formResponse?embedded=true" method="POST" class="ss-form">
 
-            <input type="text" name="entry.1523371813" value="" class="hideme ss-q-short valid" id="entry_1523371813" dir="auto" aria-label="email" placeholder="Your email address">
+            <input type="text" class="email-input" name="entry.1523371813" value="" class="hideme ss-q-short valid" id="entry_1523371813" dir="auto" aria-label="email" placeholder="Your email address">
 
             <input type="hidden" name="draftResponse" value="[,,&quot;6794452736178392895&quot;]
             ">
@@ -97,9 +97,7 @@
 
             <input type="submit" name="submit" value="GO" id="ss-submit" class="hideme button">
 
-
-            <div class="notification_container" style="display:none;">A student coordinator will email you the curriculum soon!</div>
-
+            <h2 class="notification_container" style="display:none;">A student coordinator will contact you soon!</h2>
           </div>
         </div>
       </div>
@@ -269,7 +267,7 @@
             <br />
             <form action="https://docs.google.com/forms/d/1qVx6rrZyl77eWoqKD6musQVSIY2drZEZ4feQ9i4uQZk/formResponse?embedded=true" method="POST" class="ss-form">
 
-            <input type="text" name="entry.1523371813" value="" class="hideme ss-q-short valid" id="entry_1523371813" dir="auto" aria-label="email" placeholder="Your email address">
+            <input type="text" class="email-input" name="entry.1523371813" value="" class="hideme ss-q-short valid" id="entry_1523371813" dir="auto" aria-label="email" placeholder="Your email address">
 
             <input type="hidden" name="draftResponse" value="[,,&quot;6794452736178392895&quot;]
             ">
@@ -282,7 +280,7 @@
 
 
             </form>
-            <div class="notification_container" style="display:none;">A student coordinator will contact you soon!</div>
+            <h2 class="notification_container" style="display:none;">A student coordinator will contact you soon!</h2>
           </div>
         </div>
       </div>
@@ -343,11 +341,11 @@
       data: form.serialize(),
       type: 'post',
       success: function(data) {
-        $('#entry_1523371813').val('');
+        $('.email-input').val('');
         $('.notification_container').show();
       },
       error: function(data) {
-        $('#entry_1523371813').val('');
+        $('.email-input').val('');
         $('.notification_container').show();
       }
     });
