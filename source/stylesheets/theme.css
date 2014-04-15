@@ -1129,13 +1129,11 @@ header .brand a, header .brand a:hover
         .subscribe-form .button{
                 color:#fff;
                 font-size:1.60em;
+                line-height:2.0em;
                 font-weight:100;
-                height: 2.8em;
                 width:2.35em;
                 background: transparent;
-                padding: 0;
                 border: none;
-                margin: 0;
                 outline: 0;
 
         }
