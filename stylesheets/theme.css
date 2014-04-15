@@ -26,6 +26,12 @@
   }
 }
 
+.partner .logo img {
+  max-width: 250px;
+}
+.partner {
+  padding: 25px 0;
+}
 .technologies .logo {
   width: 150px;
   height: 150px;
