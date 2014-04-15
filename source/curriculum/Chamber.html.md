@@ -1,12 +1,12 @@
 ---
-layout: modal
+layout: page
 title: Chamber
 ---
 
 Chamber
 ===
 
-[Chamber](https://github.com/m5rk/chamber/) implements best practices for managing and using settings in a web application.
+[Chamber](https://github.com/thekompanee/chamber/) implements best practices for managing and using settings in a web application.
 
 
 Why important
@@ -18,9 +18,9 @@ Every web application has many settings to manage.  These can be API keys, host 
 How we teach it
 ---
 
-You'll use chamber when setting up external services such as Amazon S3, Twilio, and Twitter.
+You'll use chamber when setting up external services such as SendGrid, Amazon S3, Twilio, and Twitter.
 
 Learn more
 ---
 
-Chamber has excellent documentation [Chamber on GitHub](https://github.com/m5rk/chamber).
+Chamber has excellent documentation [Chamber on GitHub](https://github.com/thekompanee/chamber).

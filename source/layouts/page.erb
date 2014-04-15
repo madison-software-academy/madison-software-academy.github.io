@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Madison Software Academy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<link href="/stylesheets/theme.css" rel="stylesheet">
+
+
+<link href="/stylesheets/owl.carousel.css" rel="stylesheet">
+<link href="/stylesheets/owl.theme.css" rel="stylesheet">
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+<link href='http://fonts.googleapis.com/css?family=Dosis|Fjalla+One' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+
+
+<section id="section-1" class="jumbotron bg-dim-4" style="border-bottom: 2px solid #999; margin-bottom: 25px; padding: 8em 0 2em 0;">
+  <div class="container">
+    <header>
+      <h1 class="brand">
+      <a href="./">
+      <img src="../images/msa-logo-words.png" alt="" width="200px">
+      </a>
+      </h1>
+    </header>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <%= yield %>
+  </div>
+</section>
+<br />
+
+<section class="jumbotron bg-grey-1">
+  <div class="container align-c">
+    <div class="row align-c">
+      <div data-scrollReveal class="col-sm-12">
+      <ul>
+      <li class="social"><a href="http://twitter.com/madsoftacad"><i class="icon icon-twitter"></i></a></li>
+      <li class="social"><a href="http://facebook.com/MadisonSoftwareAcademy"><i class="icon icon-facebook"></i></a></li>
+      <!--<li class="social"><a href="http://linkedin.com/softwareacademy"><i class="icon icon-linkedin"></i></a></li>-->
+      </ul>
+      </div>
+    </div>
+    <div class="copyrights">
+    <p class="align-c">MSA © 2014 | Madison, WI</p>
+    </div>
+  </div>
+</section>
+
+
+
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="/javascripts/custom.js"></script>
+<script src="/javascripts/jquery.scrollTo.js"></script>
+<script src="/javascripts/jquery.nav.js"></script>
+<script src="/javascripts/jquery.fittext.js"></script>
+<script>
+ jQuery("#responsive_headline").fitText(.8, { minFontSize: '30px', maxFontSize: '160px' })
+ jQuery("#responsive_headline2").fitText(1.2, { minFontSize: '20px', maxFontSize: '32px' })
+ jQuery(".responsive_headline3").fitText(.5, { minFontSize: '30px', maxFontSize: '52px' })
+</script>
+<script src="/javascripts/owl.carousel.js"></script>
+<script src="/javascripts/jquery.nicescroll.min.js"></script>
+<script src='/javascripts/scrollReveal.js'></script>
+<script>
+
+    window.scrollReveal = new scrollReveal();
+
+</script>
+
+
+</body>
+</html>

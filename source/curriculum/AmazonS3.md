@@ -1,5 +1,5 @@
 ---
-layout: modal
+layout: page
 title: Amazon AWS/S3
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Heroku
+title: Pivotal
 ---
 
-Heroku
+Pivotal Tracker
 ======
 
-<a href="http://heroku.com">
-  <img src="/images/logos/heroku.png" align="right" />
+<a href="http://pivotaltracker.com">
+  <img src="/images/pivotal.png" width="250" align="right" />
 </a>
 
 
