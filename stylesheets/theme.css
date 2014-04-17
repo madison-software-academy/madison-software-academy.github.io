@@ -26,6 +26,9 @@
   }
 }
 
+ul {
+  -webkit-padding-start: 40px !important;
+}
 .partner .logo img {
   max-width: 250px;
 }
